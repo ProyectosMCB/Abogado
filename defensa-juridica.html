@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Defensa Jurídica - Carlos Aranda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* HERO con imagen de fondo */
+    .hero-image{
+      height: 35vh;
+      background: url("https://media.istockphoto.com/id/2102573489/photo/judge-or-legal-advisor-lawyer-examining-and-signing-legal-documents.jpg?s=612x612&w=0&k=20&c=ioHmso3MXfIckvVFoXIhwtC3V3e-vv7hP9ACsCHPI4k=") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    /* oscurecer un poco la imagen para que el texto se vea */
+    .hero-image::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    
+    /* título centrado */
+    .hero-title{
+      position: relative;
+      color: #fff;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Imagen principal -->
+  <section class="hero-image" style="position: relative;">
+    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80" alt="Defensa Jurídica" class="img-fluid w-100" style="height: 35vh; object-fit: cover;">
+    <h1 class="hero-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); text-align: center;">Defensa Jurídica</h1>
+  </section>
+
+  <!-- Contenido principal -->
+  <section id="contenido-defensa-juridica" class="section">
+    <div class="container">
+      <div class="quote-section">
+        <blockquote class="quote-box">
+          <p>
+            Nuestra defensa jurídica se basa en una representación sólida y comprometida, defendiendo los derechos de nuestros clientes en procesos judiciales y administrativos. Con experiencia en litigios inmobiliarios y civiles, garantizamos una defensa responsable que prioriza la justicia social y el acceso a una vivienda digna en Piura y el resto de Perú.
+          </p>
+        </blockquote>
+      </div>
+
+      <h4 class="offers-title">¿QUÉ OFRECEMOS?</h4>
+      <ul class="offers-list">
+        <li><strong>Representación en Litigios Civiles:</strong> Defensa en procesos relacionados con contratos, propiedad y disputas civiles, asegurando una resolución justa.</li>
+        <li><strong>Defensa en Asuntos Inmobiliarios:</strong> Patrocinio en casos de desalojos, divisiones de propiedad y expropiaciones, con enfoque en derechos ciudadanos.</li>
+        <li><strong>Procesos Administrativos:</strong> Impugnación de sanciones y representación en procedimientos administrativos, incluyendo recursos y apelaciones.</li>
+        <li><strong>Litigios Laborales:</strong> Defensa en conflictos laborales, protegiendo los derechos de trabajadores y empleadores en entornos justos.</li>
+        <li><strong>Arbitrajes y Mediaciones:</strong> Participación en procesos alternativos de resolución de conflictos, promoviendo soluciones eficientes.</li>
+        <li><strong>Defensa Penal en Materias Relacionadas:</strong> Asistencia en casos penales vinculados a delitos contra la propiedad o fraudes inmobiliarios.</li>
+        <li><strong>Apelaciones y Recursos:</strong> Gestión de recursos judiciales para corregir decisiones injustas y defender intereses legítimos.</li>
+        <li><strong>Asesoría en Ejecuciones Judiciales:</strong> Seguimiento y ejecución de sentencias, garantizando el cumplimiento de derechos adquiridos.</li>
+      </ul>
+
+      <h4 class="offers-title">SERVICIOS ESPECIALIZADOS EN DEFENSA:</h4>
+      <ul class="offers-list">
+        <li><strong>Defensa en Controversias de Propiedad:</strong> Representación en prescripciones adquisitivas y conflictos de titularidad.</li>
+        <li><strong>Litigios Urbanísticos:</strong> Defensa en procesos relacionados con licencias municipales y normativas urbanas.</li>
+        <li><strong>Protección de Derechos Humanos:</strong> Apoyo en casos que involucren vulneraciones de derechos fundamentales, especialmente en vivienda.</li>
+        <li><strong>Defensa Colectiva:</strong> Representación en demandas colectivas o de interés público, fortaleciendo la voz comunitaria.</li>
+        <li><strong>Asistencia en Procedimientos Ejecutivos:</strong> Gestión de embargos y ejecuciones para recuperar deudas o bienes.</li>
+        <li><strong>Consultoría en Estrategias Defensivas:</strong> Análisis y planificación de estrategias legales para optimizar resultados en juicios.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

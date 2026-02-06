@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Saneamiento físico legal de inmuebles y proyectos - Carlos Aranda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* HERO con imagen de fondo */
+    .hero-image{
+      height: 35vh;
+      background: url("https://images.pexels.com/photos/8424476/pexels-photo-8424476.jpeg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    /* oscurecer un poco la imagen para que el texto se vea */
+    .hero-image::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    
+    /* título centrado */
+    .hero-title{
+      position: relative;
+      color: #fff;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagen principal -->
+  <section class="hero-image" style="position: relative;">
+    <img src="img/saneamiento-inmuebles-hero.jpg" alt="Saneamiento físico legal de inmuebles y proyectos" class="img-fluid w-100" style="height: 35vh; object-fit: cover;">
+    <h1 class="hero-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); text-align: center;">Saneamiento físico legal de inmuebles y proyectos</h1>
+  </section>
+
+  <!-- Contenido principal -->
+  <section id="contenido-saneamiento-inmuebles" class="section">
+    <div class="container">
+      <h4 class="section-title">Saneamiento físico legal de inmuebles y proyectos</h4>
+      <p class="text-justify">
+        En nuestro despacho, nos dedicamos a garantizar que tu propiedad esté completamente formalizada en aspectos físicos y legales, asegurando que planos, partidas registrales y documentos reflejen con precisión la realidad del terreno, incluyendo su área, linderos, usos y titularidad. Este proceso es clave para promover el derecho a una vivienda digna y fomentar justicia social en comunidades vulnerables de Piura y el Perú.
+      </p>
+      <h4 class="section-title">Realizamos un diagnóstico físico–legal integral, que incluye:</h4>
+      <ul>
+        <li>Revisión detallada de títulos archivados, análisis de Certificados de búsqueda catastral, bases gráficas, partidas registrales, planos perimétricos y de ubicación, títulos de propiedad y constancias municipales.</li>
+        <li>Verificación in situ (inspección física) para identificar superposiciones, invasiones, áreas excedentes o deficitarias, cargas, gravámenes y restricciones legales.</li>
+        <li>Análisis de antecedentes de posesiones informales y evaluación de su potencial para formalización, priorizando el acceso equitativo a la propiedad.</li>
+      </ul>
+      <p class="text-justify">
+        Poseemos amplia experiencia en la regularización de predios observados o suspendidos por COFOPRI, desarrollando estrategias y documentación para resolver observaciones, corregir defectos y completar el proceso de titulación de manera eficiente y justa.
+      </p>
+      <p class="text-justify">
+        Además, ofrecemos asesoría especializada en procesos de expropiación, transferencia y liberación de predios relacionados con obras públicas y proyectos de infraestructura, conforme al D. Leg. 1192 y normas complementarias. Brindamos defensa técnica tanto para entidades públicas como para propietarios afectados, asegurando una valoración justa y el respeto a derechos ciudadanos.
+      </p>
+      <p class="text-justify">
+        Nuestro equipo jurídico colabora estrechamente con profesionales técnicos para elaborar expedientes completos, y gestionamos toda la tramitación registral, municipal y notarial necesaria para tu proyecto.
+      </p>
+      <p class="text-justify">
+        Con este enfoque integral, avanzas con total seguridad jurídica, minimizando riesgos, observaciones y demoras, y optimizando recursos en cada fase del saneamiento, contribuyendo a una sociedad más justa y sostenible.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

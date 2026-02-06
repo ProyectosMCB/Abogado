@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Junta de Propietarios - Carlos Aranda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* HERO con imagen de fondo */
+    .hero-image{
+      height: 35vh;
+      background: url("https://images.pexels.com/photos/7841849/pexels-photo-7841849.jpeg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    /* oscurecer un poco la imagen para que el texto se vea */
+    .hero-image::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    
+    /* título centrado */
+    .hero-title{
+      position: relative;
+      color: #fff;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagen principal -->
+  <section class="hero-image" style="position: relative;">
+    <img src="img/junta-propietarios-hero.jpg" alt="Junta de Propietarios" class="img-fluid w-100" style="height: 35vh; object-fit: cover;">
+    <h1 class="hero-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); text-align: center;">Junta de Propietarios</h1>
+  </section>
+
+  <!-- Contenido principal -->
+  <section id="contenido-junta-propietarios" class="section">
+    <div class="container">
+      <p class="text-justify">
+        La junta de propietarios representa el corazón de cualquier comunidad residencial, actuando como el órgano encargado de tomar decisiones clave sobre mantenimiento, administración y convivencia diaria. En nuestro despacho, nos especializamos en fortalecer estas juntas con un enfoque jurídico sólido, priorizando la justicia social y el derecho universal a una vivienda digna, especialmente en entornos urbanos desafiantes como Piura.
+      </p>
+      <p class="text-justify">
+        Con una trayectoria de más de una década en asesoría jurídica inmobiliaria, brindamos soporte personalizado y estratégico para que las juntas operen con eficiencia, transparencia y pleno respeto a los derechos ciudadanos. Nuestro compromiso político-social asegura que cada decisión contribuya a comunidades equitativas, sostenibles y libres de conflictos innecesarios.
+      </p>
+      <p class="text-justify">
+        Diseñamos planes de acción a medida, adaptados a las particularidades de cada junta, garantizando el cumplimiento estricto de la normativa para fomentar la armonía colectiva y el bienestar común de todos los propietarios.
+      </p>
+
+      <!-- Servicios para Junta de Propietarios -->
+      <div class="servicios-junta">
+        <!-- Servicio 1 -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-12">
+            <h4 class="section-title">Inscripción del Primer Presidente de la Junta de Propietarios</h4>
+            <p class="text-justify">
+              Gestionamos de manera integral la inscripción del primer presidente ante SUNARP, asegurando el pleno cumplimiento del régimen de propiedad horizontal y la validez absoluta de todos los acuerdos adoptados. Este proceso protege los derechos comunitarios y evita futuras observaciones registrales, fortaleciendo la legitimidad de la junta desde sus inicios.
+            </p>
+          </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-12">
+            <h4 class="section-title">Inscripción del Presidente o Directiva de la Junta</h4>
+            <p class="text-justify">
+              Ofrecemos un servicio especializado para la inscripción formal del presidente o de toda la directiva ante las entidades competentes, garantizando una representación legítima, transparente y alineada con principios de justicia social. Esto asegura que la junta actúe con plena autoridad jurídica, promoviendo decisiones equitativas para el beneficio de la comunidad.
+            </p>
+          </div>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-12">
+            <h4 class="section-title">Adecuación del Reglamento Interno a la Ley 27157</h4>
+            <p class="text-justify">
+              Adaptamos y actualizamos el reglamento interno de edificaciones construidas antes de 1999, conforme a las disposiciones de la Ley 27157, para asegurar su validez jurídica completa y su correcta inscripción en Registros Públicos. Este servicio fomenta una convivencia justa y armoniosa, priorizando los derechos ciudadanos y la resolución pacífica de conflictos en la comunidad.
+            </p>
+          </div>
+        </div>
+
+        <!-- Servicio 4 -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-12">
+            <h4 class="section-title">Modificación del Reglamento Interno</h4>
+            <p class="text-justify">
+              Realizamos una revisión exhaustiva y actualización del reglamento interno, incorporando las necesidades actuales de los propietarios y garantizando su inscripción registral. Este proceso asegura normas efectivas, equitativas y adaptadas a la realidad comunitaria, promoviendo un entorno de convivencia respetuoso y sostenible en Piura y alrededores.
+            </p>
+          </div>
+        </div>
+
+        <!-- Servicio 5 -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-12">
+            <h4 class="section-title">Cobranza Judicial de Cuotas de Mantenimiento</h4>
+            <p class="text-justify">
+              Implementamos estrategias legales precisas para la cobranza judicial de cuotas de mantenimiento adeudadas por propietarios morosos, incluyendo la interposición de demandas y el seguimiento hasta la recuperación efectiva de los fondos. Este servicio protege el interés colectivo, asegurando recursos suficientes para el mantenimiento y mejora de las áreas comunes, con un enfoque en justicia y equidad social.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

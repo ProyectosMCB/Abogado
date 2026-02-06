@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Abogado Político Perú</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contacto" class="contact-section">
+    <div class="container">
+      <h2>Contáctame para recibir mayor información</h2> <!-- Agregado nombre -->
+      <div class="cards">
+  
+        </div>
+        <form id="contactForm" class="contact-form">
+          <input type="text" placeholder="Nombre completo" required>
+          <input type="email" placeholder="Correo electrónico" required>
+          <textarea placeholder="Mensaje" required></textarea>
+          <button type="submit">Enviar mensaje</button>
+          <div id="formMsg" class="form-msg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  
+<!-- ================= COMPARTE QR ================= -->
+<section class="section qr-section">
+    <div class="container">
+      <h2>COMPARTE QR</h2>
+      <p>Escanea este código QR para contactarme directamente por WhatsApp y agenda una consulta legal o política.</p>
+      <img 
+      src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://proyectosmcb.github.io/Abogado/" 
+      alt="QR sitio web"
+      class="qr-code">
+  </div>
+    </div>
+  </section>
+  
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+  
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <script src="app.js"></script>
+</body>
+</html>

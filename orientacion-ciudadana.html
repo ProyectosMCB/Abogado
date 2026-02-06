@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Orientación Ciudadana - Carlos Aranda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* HERO con imagen de fondo */
+    .hero-image{
+      height: 35vh;
+      background: url("https://images.pexels.com/photos/5673485/pexels-photo-5673485.jpeg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    /* oscurecer un poco la imagen para que el texto se vea */
+    .hero-image::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    
+    /* título centrado */
+    .hero-title{
+      position: relative;
+      color: #fff;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagen principal -->
+  <section class="hero-image" style="position: relative;">
+    <img src="img/orientacion-ciudadana-hero.jpg" alt="Orientación Ciudadana" class="img-fluid w-100" style="height: 35vh; object-fit: cover;">
+    <h1 class="hero-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); text-align: center;">Orientación Ciudadana</h1>
+  </section>
+
+  <!-- Contenido principal -->
+  <section id="contenido-orientacion-ciudadana" class="section">
+    <div class="container">
+      <div class="quote-section">
+        <blockquote class="quote-box">
+          <p>
+            La orientación ciudadana actúa como un vínculo esencial entre los ciudadanos y sus derechos fundamentales, ofreciendo información jurídica clara y accesible para fomentar una participación activa en la sociedad. En nuestro despacho, defendemos el derecho universal a una vivienda digna, con un enfoque político-social que prioriza el empoderamiento legal de todos, especialmente en comunidades vulnerables de Piura y el Perú.
+          </p>
+        </blockquote>
+      </div>
+
+      <h4 class="offers-title">¿QUÉ OFRECEMOS?</h4>
+      <ul class="offers-list">
+        <li><strong>Información sobre Derechos Ciudadanos:</strong> Proporcionamos guías detalladas sobre derechos constitucionales, laborales y sociales, facilitando el acceso a recursos legales para una ciudadanía informada y empoderada.</li>
+        <li><strong>Asesoría en Trámites Administrativos:</strong> Orientamos en la gestión eficiente de documentos, licencias y permisos municipales, simplificando procesos burocráticos para ahorrar tiempo y evitar errores.</li>
+        <li><strong>Educación Legal Comunitaria:</strong> Organizamos talleres y charlas interactivas sobre temas legales cotidianos, como contratos, propiedad y convivencia, promoviendo una cultura de responsabilidad jurídica.</li>
+        <li><strong>Apoyo en Conflictos Vecinales:</strong> Ofrecemos mediación imparcial en disputas entre vecinos, enfocándonos en soluciones pacíficas y justas que preserven la armonía comunitaria.</li>
+        <li><strong>Orientación en Vivienda y Propiedad:</strong> Brindamos información especializada sobre derechos habitacionales, alquileres y protección contra desalojos, asegurando seguridad y estabilidad para familias.</li>
+        <li><strong>Asistencia en Reclamos Ciudadanos:</strong> Ayudamos a presentar quejas ante entidades públicas de manera efectiva, garantizando respuestas oportunas y el respeto a los derechos ciudadanos.</li>
+        <li><strong>Prevención de Conflictos Legales:</strong> Ofrecemos consejos prácticos para evitar problemas legales comunes, fomentando la autonomía y la toma de decisiones informadas.</li>
+        <li><strong>Enlaces con Instituciones Públicas:</strong> Facilitamos conexiones directas con organismos estatales para agilizar trámites, consultas y acceso a servicios públicos esenciales.</li>
+      </ul>
+
+      <h4 class="offers-title">SERVICIOS ESPECIALIZADOS EN ORIENTACIÓN:</h4>
+      <ul class="offers-list">
+        <li><strong>Apoyo a Familias Vulnerables:</strong> Proporcionamos orientación legal dedicada a familias de bajos ingresos, abordando temas de vivienda, protección social y acceso a beneficios estatales.</li>
+        <li><strong>Educación Digital Ciudadana:</strong> Guiamos sobre derechos en el ámbito digital, incluyendo privacidad de datos, contratos en línea y protección contra fraudes cibernéticos.</li>
+        <li><strong>Participación Política:</strong> Informamos sobre procesos electorales, derechos políticos y formas de participación comunitaria, fortaleciendo la democracia local en Piura.</li>
+        <li><strong>Mediación en Propiedad Horizontal:</strong> Asistimos en comunidades de propietarios para resolver conflictos internos de manera equitativa y preventiva.</li>
+        <li><strong>Consultas Gratuitas Iniciales:</strong> Realizamos sesiones introductorias gratuitas para evaluar necesidades específicas y ofrecer orientaciones preliminares personalizadas.</li>
+        <li><strong>Campañas de Concientización:</strong> Desarrollamos iniciativas educativas para promover derechos humanos, justicia social y equidad en Piura y sus alrededores.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

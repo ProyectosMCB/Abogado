@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Asesoría Legal - Carlos Aranda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* HERO con imagen de fondo */
+    .hero-image{
+      height: 35vh;
+      background: url("https://images.pexels.com/photos/5668487/pexels-photo-5668487.jpeg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    /* oscurecer un poco la imagen para que el texto se vea */
+    .hero-image::before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+    }
+    
+    /* título centrado */
+    .hero-title{
+      position: relative;
+      color: #fff;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      font-family: 'Montserrat', sans-serif;
+    }
+    </style>
+    
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Imagen principal -->
+  <section class="hero-image" style="position: relative;">
+    <img src="img/asesoria-legal.jpg" alt="Asesoría Legal" class="img-fluid w-100" style="height: 35vh; object-fit: cover;">
+    <h1 class="hero-title" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.8); text-align: center;">Asesoría Legal</h1>
+  </section>
+
+  <!-- Contenido principal -->
+  <section id="contenido-asesoria-legal" class="section">
+    <div class="container">
+      <div class="quote-section">
+        <blockquote class="quote-box">
+          <p>
+            En nuestro despacho, desarrollamos soluciones legales integrales con enfoque en la justicia social y el derecho a una vivienda digna. Nuestro compromiso es brindar asesoría clara, eficiente y accesible, combinando experiencia jurídica con vocación política para defender los intereses de nuestros clientes en Piura y Perú.
+          </p>
+        </blockquote>
+      </div>
+
+      <h4 class="offers-title">¿QUÉ OFRECEMOS?</h4>
+      <ul class="offers-list">
+        <li><strong>Controversias y Litigios:</strong> Representación en procesos judiciales relacionados con propiedad, desalojo, expropiación y otros asuntos inmobiliarios.</li>
+        <li><strong>Corporativo:</strong> Asesoría en constitución de empresas, contratos asociativos y reorganización jurídica.</li>
+        <li><strong>Civil y Contratos:</strong> Elaboración y negociación de contratos civiles, desde la planificación hasta la ejecución.</li>
+        <li><strong>Laboral:</strong> Orientación en derecho laboral para mantener relaciones justas con colaboradores.</li>
+        <li><strong>Administrativo:</strong> Tramitación de procedimientos administrativos, impugnaciones y procesos contenciosos.</li>
+        <li><strong>Derecho Empresarial:</strong> Asesoría en transacciones comerciales y seguridad jurídica.</li>
+        <li><strong>Derecho de la Competencia y Consumidor:</strong> Protección en relaciones de consumo y competencia.</li>
+        <li><strong>Contrataciones del Estado:</strong> Especialización en adquisiciones públicas con actualización constante.</li>
+        <li><strong>Derecho Inmobiliario y Saneamiento:</strong> Saneamiento físico-legal de inmuebles en sectores público y privado.</li>
+      </ul>
+
+      <h4 class="offers-title">SERVICIOS ESPECIALIZADOS ADICIONALES:</h4>
+      <ul class="offers-list">
+        <li><strong>Asesoría en Transacciones Inmobiliarias:</strong> Contratos de compraventa, alquiler, hipoteca y arras.</li>
+        <li><strong>Asesoría en Inversiones Inmobiliarias:</strong> Estrategias para inversionistas en el mercado inmobiliario.</li>
+        <li><strong>Diligencia Debida Inmobiliaria:</strong> Auditorías legales para verificar propiedades.</li>
+        <li><strong>Asesoría en Proyectos de Desarrollo:</strong> Acompañamiento en planificación y ejecución de proyectos inmobiliarios.</li>
+        <li><strong>Consultoría en Propiedad Horizontal:</strong> Gestión de comunidades, contratos y resolución de conflictos.</li>
+        <li><strong>Formalización y Legalización de Edificaciones:</strong> Regularización, inscripciones y licencias municipales.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

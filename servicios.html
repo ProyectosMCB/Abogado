@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Servicios - Abogado Político Perú</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="img/firma2.png" alt="Firma" class="logo-img">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre-mi.html">BLOG</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="opinion.html">OPINIÓN POLÍTICA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- ================= SERVICIOS ================= -->
+<section id="servicios" class="section">
+  <div class="container">
+    <h2>SERVICIOS LEGALES</h2>
+
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-scale-balanced fa-2x"></i>
+        <h3>Asesoría Legal</h3>
+        <p>Orientación jurídica clara y personalizada.</p>
+        <a href="asesoria-legal.html" class="btn small">Ver más</a>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-gavel fa-2x"></i>
+        <h3>Defensa Jurídica</h3>
+        <p>Representación responsable y profesional.</p>
+        <a href="defensa-juridica.html" class="btn small">Ver más</a>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-users fa-2x"></i>
+        <h3>Orientación Ciudadana</h3>
+        <p>Información legal accesible para todos.</p>
+        <a href="orientacion-ciudadana.html" class="btn small">Ver más</a>
+      </div>
+
+      <!-- Nuevos servicios -->
+      <div class="card">
+        <i class="fas fa-users fa-2x"></i>
+        <h3>Junta de Propietarios</h3>
+        <p>Gestión y asesoría para juntas de propietarios.</p>
+        <a href="junta-propietarios.html" class="btn small">Ver más</a>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-file-signature fa-2x"></i>
+        <h3>Formalización y Legalización de Edificaciones</h3>
+        <p>Proceso legal para formalizar edificaciones.</p>
+        <a href="formalizacion-edificaciones.html" class="btn small">Ver más</a>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-home fa-2x"></i>
+        <h3>Saneamiento físico legal de inmuebles y proyectos</h3>
+        <p>Saneamiento legal de inmuebles y proyectos.</p>
+        <a href="saneamiento-inmuebles.html" class="btn small">Ver más</a>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <section class="section light" id="galeria">
+    <div class="container">
+      <h2>GALERÍA</h2>
+  
+      <div class="slider">
+        <button class="slider-btn prev" onclick="prevImage()">❮</button>
+  
+        <img id="sliderImage" src="img/1.jpg" alt="Galería">
+  
+        <button class="slider-btn next" onclick="nextImage()">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Abogado/Político | Piura, Perú</p>
+  </footer>
+  
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/51950372630" class="whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <script src="app.js"></script>
+</body>
+</html>
